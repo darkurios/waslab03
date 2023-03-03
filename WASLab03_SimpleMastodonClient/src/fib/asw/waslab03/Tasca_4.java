@@ -14,7 +14,7 @@ public class Tasca_4 {
 	
 	public static void main(String[] args) {
 
-		SimpleDateFormat sdf = new SimpleDateFormat("EEEE, dd MMMM 'de' yyyy 'a les' HH:mm:ss", new Locale(LOCALE));
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd 'a les' HH:mm:ss", new Locale(LOCALE));
 		String now = sdf.format(new Date());
 
 		String my_status = "Hola, @fib_asw@mastodont.cat, ja sóc aquí! #waslab03\n[" + now + "]";
